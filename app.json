@@ -1,0 +1,16 @@
+{
+  "name": "Get Fix Product Info Site",
+  "description": "Demonstrates Salesforce Identity on a 3rd Party Site",
+  "repository": "https://github.com/salesforceidentity/heroku-login-widget-example",
+  "website": "https://www.salesforce.com/platform/identity",
+  "logo": "https://www.salesforceidentity.info/img/launcher.png",
+  "keywords": ["salesforce", "heroku", "identity", "loginwidget"],
+  "env":{
+	  "SALESFORCE_COMMUNITY_URL":"COMMUNITY_URL_HERE",
+	  "SALESFORCE_CLIENT_ID":"CONNECTED_APP_KEY_HERE",
+	  "SALESFORCE_HEROKUAPP_URL":"HEROKUAPP_URL_HERE",
+	  "SALESFORCE_MODE":"modal",
+	  "SALESFORCE_FORGOT_PASSWORD_ENABLED":"true",
+	  "SALESFORCE_SELF_REGISTER_ENABLED":"false",
+	  }
+}
