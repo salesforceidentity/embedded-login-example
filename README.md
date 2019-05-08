@@ -10,7 +10,7 @@ You'll need an org that has a Community setup and active. Ideally you should hav
 Steps to deploy
 ---------------
 1. Deploy this app to Heroku [![Deploy](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy?template=https://github.com/salesforceidentity/embedded-login-example)
-2. Create a CORS entry for your community's domain. [More details here](https://developer.salesforce.com/docs/atlas.en-us.externalidentityImplGuide.meta/externalidentityImplGuide/external_identity_login_step_1.htm)
+2. Create a CORS entry for the deployed heroku app. [More details here](https://developer.salesforce.com/docs/atlas.en-us.externalidentityImplGuide.meta/externalidentityImplGuide/external_identity_login_step_1.htm)
 3. Create a Connected App
 	* Enable OAuth
 	* Select openid scope
